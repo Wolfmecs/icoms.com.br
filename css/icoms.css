@@ -1,0 +1,336 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  background-color: #222;
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.8);
+        box-shadow: inset 0 0 100px rgba(0,0,0,.8);
+}
+
+body a {
+    font-weight: 100;
+}
+
+body a:hover {
+    font-weight: 100;
+    text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.intro-header {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/index_background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-inst {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/institucional_backgroud.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-out {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/outsourcing_background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-globe {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/globe_background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-param {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/globe_background_param.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-space {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    background: url(../img/separator.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header-proj {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    /* background: url(../img/index_background.png) no-repeat center center;*/
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    font-size: 18px;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 20px 0;
+    color: white;
+    background-color: transparent;
+}
+
+.content-section-b {
+    padding: 20px 0;
+    color: white;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+.content-section-c {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 100;
+    line-height: 2;
+    background-color: transparent;
+}
+
+.blockText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.content-section-c h2 {
+    color:gray;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .navbar-right-2 {
+    float: right;
+    list-style: none;
+    margin: 0;
+  }
+    
+  .navbar-right-2 > li {
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .navbar-right-2 > li > a {
+    text-decoration: none;
+    color: gray;
+    font-weight: normal;
+  }
+  .navbar-right-2 > li > a:hover {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: normal;
+  }  
+}
+
+@media (min-width: 768px) {
+  .navbar-right-2 {
+    float: right;
+    list-style: none;
+    margin: 0;
+  }
+    
+  .navbar-right-2 > li {
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .navbar-right-2 > li > a {
+    text-decoration: none;
+    color: gray;
+    font-weight: normal;
+  }
+  .navbar-right-2 > li > a:hover {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: normal;
+  }
+}
+
+folder {
+    text-align: right;
+}
+
+folder ul {
+    padding-top: 5cm;
+    padding-right: 1cm;
+}
+
+folder a {
+    font-weight: 100;
+    color: white;
+}
+
+folder banner {
+    background: url(../img/index_background.png) no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    font-weight: 100;
+    text-decoration: none;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 100;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.tab_globe{
+	float:left;
+	background:#B6B6B6;
+    background-size: cover;
+	color:#000000;
+}
+.tab_globe_vazia{
+    float:left;
+    height:15px;
+    margin:2px;
+    size:8px;
+    font-size: 9px;
+}
+.tab_globe_1{
+    float:left;
+    background:#6A6AB5;
+    color:#FFFFFF;
+    height:15px;
+    margin:2px;
+    font-size: 9px;
+}
+.tab_globe_2{
+    float:left;
+    height:15px;
+    margin:2px;
+    font-size: 9px;
+    background:#3C3C3C;
+    color:#FFFFFF;
+}
+.tabela_2_globe{
+    height:28px;
+    margin-bottom:5px; 
+    font-size:12px;
+    width:670px; 
+    float:left;
+}
